@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="2.5.0" method="upgrade">
+	<name>mod_pr_flicker</name>
+	<creationDate>07/07/2013</creationDate>
+	<author>Khandaker Shamsul Islam Nirob</author>
+	<authorEmail>webpentagon@pranon.com</authorEmail>
+	<authorUrl>http://www.webpentagon.com</authorUrl>
+	<copyright>Copyright Info</copyright>
+	<license>License Info</license>
+	<version>0.1</version>
+	<description>MOD_PR_FLICKER_XML_DESCRIPTION</description>
+	<files>
+		<filename module="mod_pr_flicker">mod_pr_flicker.php</filename>
+		<filename>mod_pr_flicker.xml</filename>
+		<filename>index.html</filename>
+		<folder>tmpl</folder>
+		<folder>css</folder>
+		<folder>js</folder>
+		<folder>language</folder>
+	</files>
+		<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="class_suffix" type="text" label="Class suffix" description="Add a class suffix to change style using a custom class"/>
+				<field name="flicker_id" default="95224433@N03" type="text" label="ID" description="Add your flicker album ID"/>
+				<field name="flicker_limit" default="12" type="text" label="Image Limit" description="Add a class suffix to change style using a custom class"/>
+				<field name="flicker_style" type="text" label="Choose style" description="Choose a style"/>
+				
+				<field name="flicker_style" type="list" default="1"
+					label="choose style" description="choose a style from the list">
+					<option value="1">Default</option>
+					<option value="2">Style 1</option>
+				</field>
+			</fieldset>
+				
+		</fields>
+	</config>
+</extension>

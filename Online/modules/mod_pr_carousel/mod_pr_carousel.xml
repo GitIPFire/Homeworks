@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="2.5.0" method="upgrade">
+
+	<name>mod_pr_carousel</name>
+	<creationDate>03/16/2013</creationDate>
+	<author>shamsul Islam Nirob</author>
+	<authorEmail>support@webpentagon.com</authorEmail>
+	<authorUrl>http://www.webpentagon.com</authorUrl>
+	<copyright>Copyright (C) 2012 Open Source Matters. All rights reserved. 3jon</copyright>
+	<license>GNU/GPL</license>
+	<version>0.1</version>
+	<description>mod_pr_carousel</description>
+	<files>
+		<filename module="mod_pr_carousel">mod_pr_carousel.php</filename>
+		<filename>mod_pr_carousel.xml</filename>
+		<filename>helper.php</filename>
+		<folder>tmpl</folder>
+		<folder>js</folder>
+		<folder>images</folder>
+		<folder>css</folder>
+		<folder>language</folder>
+	</files>
+	<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field
+					name="title"
+					type="text"
+					default="OUR CLIENTS"
+					label="Title"
+					description="Input the title" />
+
+				<field
+					name="type"
+					type="text"
+					default="jpg"
+					label="MOD_RANDOM_IMAGE_FIELD_TYPE_LABEL"
+					description="MOD_RANDOM_IMAGE_FIELD_TYPE_DESC" />
+
+
+					<field
+					name="folder"
+					type="folderlist"
+					default="images\demo\recent\logo\"
+					directory="images/"
+					label="MOD_RANDOM_IMAGE_FIELD_FOLDER_LABEL"
+					description="MOD_RANDOM_IMAGE_FIELD_FOLDER_DESC" />
+
+				<field
+					name="width"
+					type="text"
+					default="181px"
+					label="MOD_RANDOM_IMAGE_FIELD_WIDTH_LABEL"
+					description="MOD_RANDOM_IMAGE_FIELD_WIDTH_DESC" />
+				<field
+					name="height"
+					type="text"
+					default="122px"
+					label="MOD_RANDOM_IMAGE_FIELD_HEIGHT_LABEL"
+					description="MOD_RANDOM_IMAGE_FIELD_HEIGHT_DESC" />
+				<field
+					name="margin_left"
+					type="text"
+					default="10px"
+					label="MOD_RANDOM_IMAGE_FIELD_MARGIN_LEFT_LABEL"
+					description="MOD_RANDOM_IMAGE_FIELD_MARGIN_LEFT_DESC" />
+				<field
+					name="margin_right"
+					type="text"
+					default="10px"
+					label="MOD_RANDOM_IMAGE_FIELD_MARGIN_RIGHT_LABEL"
+					description="MOD_RANDOM_IMAGE_FIELD_MARGIN_RIGHT_DESC" />
+					
+				<field name="randomimage" type="list" default="1"
+					label="Choose Random Image" description="choose random image style from the list">
+					<option value="1">Yes</option>
+					<option value="2">No</option>
+				</field>
+				
+			</fieldset>
+			<fieldset
+				name="advanced">
+				<field
+					name="layout"
+					type="modulelayout"
+					label="JFIELD_ALT_LAYOUT_LABEL"
+					description="JFIELD_ALT_MODULE_LAYOUT_DESC" />
+				<field
+					name="moduleclass_sfx"
+					type="text"
+					label="COM_MODULES_FIELD_MODULECLASS_SFX_LABEL"
+					description="COM_MODULES_FIELD_MODULECLASS_SFX_DESC" />
+				<field
+					name="cache"
+					type="list"
+					default="0"
+					label="COM_MODULES_FIELD_CACHING_LABEL"
+					description="COM_MODULES_FIELD_CACHING_DESC">
+					<option
+						value="0">COM_MODULES_FIELD_VALUE_NOCACHING</option>
+				</field>
+			</fieldset>
+		</fields>
+	</config>
+</extension>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="2.5.0" method="upgrade">
+	<name>mod_pr_faqs</name>
+	<creationDate>06/19/2013</creationDate>
+	<author>Khandaker Shamsul Islam Nirob</author>
+	<authorEmail>webpentagon@pranon.com</authorEmail>
+	<authorUrl>http://www.webpentagon.com</authorUrl>
+	<copyright>Copyright Info</copyright>
+	<license>License Info</license>
+	<version>0.1</version>
+	<description>MOD_PR_FAQS_XML_DESCRIPTION</description>
+	<files>
+		<filename module="mod_pr_faqs">mod_pr_faqs.php</filename>
+		<filename>mod_pr_faqs.xml</filename>
+		<filename>index.html</filename>
+		<folder>tmpl</folder>
+		<folder>elements</folder>
+		<folder>css</folder>
+		<folder>js</folder>
+		<folder>language</folder>
+	</files>
+		<config>
+		<fields name="params" addfieldpath="/modules/mod_pr_faqs/elements">
+			<fieldset name="basic">
+				<field name="class_suffix" type="text" label="Class suffix" description="Add a class suffix to change style using a custom class"/>
+			</fieldset>
+			
+			<fieldset name="faqs" label="FAQS">
+				<field name="faqs_1" type="text" label="Question 1" default="Doloribus asperiores repellat?" description="Input the title." />
+				<field name="faqs_1_ans" type="editor" label="Answer" default="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum." description="Input the title." />
+				<field name="faqs_2" type="text" label="Question 2" default="It was popularised in the 1960s with?" description="Input the title." />
+				<field name="faqs_2_ans" type="text" label="Answer" default="It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum." description="Input the title." />
+				<field name="faqs_3" type="text" label="Question 3" default="How does the Tuts+ Premium affiliate program work?" description="Input the title." />
+				<field name="faqs_3_ans" type="text" label="Answer" default="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged." description="Input the title." />
+				<field name="faqs_4" type="text" label="Question 4" default="Can I use trademarked names in my items?" description="Input the title." />
+				<field name="faqs_4_ans" type="text" label="Answer" default="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged." description="Input the title." />
+				<field name="faqs_5" type="text" label="Question 5" default="How can I get support for an item which isn't working correctly?" description="Input the title." />
+				<field name="faqs_5_ans" type="text" label="Answer" default="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged." description="Input the title." />
+				<field name="faqs_6" type="text" label="Question 6" default="How do I pay for items on the Marketplaces?" description="Input the title." />
+				<field name="faqs_6_ans" type="text" label="Answer" default="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged." description="Input the title." />
+				<field name="faqs_7" type="text" label="Question 7" default="How do I become an author?" description="Input the title." />
+				<field name="faqs_7_ans" type="text" label="Answer" default="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged." description="Input the title." />
+				<field name="faqs_7" type="text" label="Question 7" default="How much money can I make?" description="Input the title." />
+				<field name="faqs_7_ans" type="text" label="Answer" default="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged." description="Input the title." />
+				<field name="faqs_8" type="text" label="Question 8" default="How much money can I make?" description="Input the title." />
+				<field name="faqs_8_ans" type="text" label="Answer" default="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged." description="Input the title." />
+				
+			</fieldset>						
+		</fields>
+	</config>
+</extension>

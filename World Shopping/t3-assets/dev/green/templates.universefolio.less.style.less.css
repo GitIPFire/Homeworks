@@ -1,0 +1,128 @@
+.logo {
+  float: left;
+}
+.logo h1,
+.logo h1 a {
+  line-height: 1;
+  margin: 0;
+}
+.logo-image {
+  overflow: hidden;
+}
+.logo-image a {
+  background-image: url("../../../templates/universefolio/images/logo.png");
+  background-repeat: no-repeat;
+  height: 65px;
+}
+.logo-image span,
+.logo-image small {
+  display: none;
+}
+.logo-text h1 {
+  color: #444;
+}
+.logo-text h1 a {
+  color: #444;
+  text-decoration: none;
+}
+.logo-text:hover h1 a,
+.logo-text h1 a:hover,
+.logo-text h1 a:active,
+.logo-text h1 a:focus {
+  text-decoration: none;
+}
+.logo-text .site-slogan {
+  display: block;
+  font-size: 14px;
+  margin-top: 5px;
+}
+.head-search {
+  float: right;
+  margin-top: 20px;
+}
+.head-search form {
+  margin: 0;
+  float: right;
+}
+.head-search label {
+  display: none;
+}
+.head-search .input {
+  background: url("../../../templates/universefolio/images/ico/search-invert.png") no-repeat 8px center;
+  width: 120px;
+  padding-left: 26px;
+}
+.head-search .input:focus {
+  color: #444;
+  width: 180px;
+}
+.t3-footer {
+  background: #222;
+  color: #666;
+  *zoom: 1;
+}
+.t3-footer:before,
+.t3-footer:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.t3-footer:after {
+  clear: both;
+}
+.t3-footer small {
+  display: block;
+  font-size: 100%;
+}
+.t3-footer a {
+  color: #999;
+}
+.t3-footer a:hover,
+.t3-footer a:active,
+.t3-footer a:focus {
+  color: #e6e6e6;
+}
+.t3-footnav {
+  *zoom: 1;
+}
+.t3-footnav:before,
+.t3-footnav:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.t3-footnav:after {
+  clear: both;
+}
+.t3-footnav ul {
+  list-style: none;
+  margin-left: 0;
+}
+.t3-footnav li {
+  line-height: 24px;
+}
+.t3-footnav .module-title {
+  font-size: 18px;
+  color: #999;
+}
+.t3-copyright {
+  border-top: 1px solid #2f2f2f;
+  font-size: 12px;
+  *zoom: 1;
+}
+.t3-copyright:before,
+.t3-copyright:after {
+  display: table;
+  content: "";
+  line-height: 0;
+}
+.t3-copyright:after {
+  clear: both;
+}
+.copyright {
+  float: left;
+}
+.poweredby {
+  float: right;
+  text-align: right;
+}

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="2.5.0" method="upgrade">
+	<name>mod_pr_pricetable</name>
+	<creationDate>06/19/2013</creationDate>
+	<author>Khandaker Shamsul Islam Nirob</author>
+	<authorEmail>webpentagon@pranon.com</authorEmail>
+	<authorUrl>http://www.webpentagon.com</authorUrl>
+	<copyright>Copyright Info</copyright>
+	<license>License Info</license>
+	<version>0.1</version>
+	<description>MOD_PR_PRICETABLE_XML_DESCRIPTION</description>
+	<files>
+		<filename module="mod_pr_pricetable">mod_pr_pricetable.php</filename>
+		<filename>mod_pr_pricetable.xml</filename>
+		<filename>index.html</filename>
+		<folder>tmpl</folder>
+		<folder>css</folder>
+		<folder>js</folder>
+		<folder>language</folder>
+	</files>
+		<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="class_suffix" type="text" label="Class suffix" description="Add a class suffix to change style using a custom class"/>
+			</fieldset>
+			
+			<fieldset name="colunn_1" label="Column 1">
+				<field name="col_1_title" type="text" label="Title" default="Standard" description="Input the title." />
+				<field name="col_1_price" type="text" label="Price" default="9.99" description="Input the price." />
+				<field name="col_1_description" type="text" label="Description" default="Content..." description="Input the description." />
+				<field name="col_1_bullet-item1" type="text" label="bullet-item 1" default="5 Database" description="Input the bullet-item 1" />
+				<field name="col_1_bullet-item2" type="text" label="bullet-item 2" default="5GB Storage" description="Input the bullet-item 2" />
+				<field name="col_1_bullet-item3" type="text" label="bullet-item 2" default="20 Users" description="Input the bullet-item 3" />
+				<field name="col_1_button_text" type="text" label="Button" default="Sign Up" description="Input the button text" />
+				<field name="col_1_button_link" type="text" label="Button link" default="#" description="Input the button link" />
+			</fieldset>			
+			
+			<fieldset name="colunn_2" label="Column 2">
+				<field name="col_2_title" type="text" label="Title" default="Premium" description="Input the title." />
+				<field name="col_2_price" type="text" label="Price" default="29.99" description="Input the price." />
+				<field name="col_2_description" type="text" label="Description" default="Content..." description="Input the description." />
+				<field name="col_2_bullet-item1" type="text" label="bullet-item 1" default="25 Database" description="Input the bullet-item 1" />
+				<field name="col_2_bullet-item2" type="text" label="bullet-item 2" default="25GB Storage" description="Input the bullet-item 2" />
+				<field name="col_2_bullet-item3" type="text" label="bullet-item 2" default="50 Users" description="Input the bullet-item 3" />
+				<field name="col_2_button_text" type="text" label="Button" default="Sign Up" description="Input the button text" />
+				<field name="col_2_button_link" type="text" label="Button link" default="#" description="Input the button link" />
+			</fieldset>			
+			
+			<fieldset name="colunn_3" label="Column 3">
+				<field name="col_3_title" type="text" label="Title" default="Professional" description="Input the title." />
+				<field name="col_3_price" type="text" label="Price" default="49.99" description="Input the price." />
+				<field name="col_3_description" type="text" label="Description" default="Content..." description="Input the description." />
+				<field name="col_3_bullet-item1" type="text" label="bullet-item 1" default="50 Database" description="Input the bullet-item 1" />
+				<field name="col_3_bullet-item2" type="text" label="bullet-item 2" default="50GB Storage" description="Input the bullet-item 2" />
+				<field name="col_3_bullet-item3" type="text" label="bullet-item 2" default="100 Users" description="Input the bullet-item 3" />
+				<field name="col_3_button_text" type="text" label="Button" default="Sign Up" description="Input the button text" />
+				<field name="col_3_button_link" type="text" label="Button link" default="#" description="Input the button link" />
+			</fieldset>			
+			
+			<fieldset name="colunn_4" label="Column 4">
+				<field name="col_4_title" type="text" label="Title" default="Extra" description="Input the title." />
+				<field name="col_4_price" type="text" label="Price" default="99.99" description="Input the price." />
+				<field name="col_4_description" type="text" label="Description" default="Content..." description="Input the description." />
+				<field name="col_4_bullet-item1" type="text" label="bullet-item 1" default="500 Database" description="Input the bullet-item 1" />
+				<field name="col_4_bullet-item2" type="text" label="bullet-item 2" default="500GB Storage" description="Input the bullet-item 2" />
+				<field name="col_4_bullet-item3" type="text" label="bullet-item 2" default="1000 Users" description="Input the bullet-item 3" />
+				<field name="col_4_button_text" type="text" label="Button" default="Sign Up" description="Input the button text" />
+				<field name="col_4_button_link" type="text" label="Button link" default="#" description="Input the button link" />
+			</fieldset>
+		</fields>
+	</config>
+</extension>

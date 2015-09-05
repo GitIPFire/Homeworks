@@ -1,0 +1,276 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: 'Lato';
+    src: url('../fonts/Lato-Bold.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/Lato-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/Lato-Bold.woff') format('woff'), /* Modern Browsers */
+         url('../fonts/Lato-Bold.ttf') format('truetype'); 
+    font-style: normal;
+    text-rendering: optimizeLegibility;
+}
+
+body{ background:#FFF; font-family:'Lato'; margin:0; padding:0; color:#656363;}
+
+.head
+{
+	background:#FFF;
+	margin:0 15px 0 15px;
+	width:100%;
+	float:left;
+}
+
+.banner_img
+{
+	float:left;
+}
+.banner_img img
+{
+	margin-top:2em;
+}
+.box select
+{
+
+	float:right;
+	width:15%;
+	margin:10% 5% 0 0;
+	font-size:12px;
+}
+@media (min-width:0px)
+{
+	.banner_img img{ width:50%;margin-top:0.2em;}
+	/*.box select{position:absolute;	z-index:2; margin:1em 0 0 -5em; height:20px; font-size:8px;}*/
+}
+@media (min-width:320px)
+{
+	.banner_img img{ width:50%;margin-top:0.2em;}
+	/*.box select
+	{
+		
+		position:absolute;
+		z-index:2;
+		margin: 2em 0 0 -5em;
+		font-size:10px;
+	}*/
+}
+@media(min-width:360px)
+{
+	.banner_img img{ width:50%;margin-top:0.2em;}
+	/*.box select
+	{
+		
+		position:absolute;
+		z-index:2;
+		margin: 2em 0 0 -7em;
+		font-size:9px;
+	}*/
+}
+@media (min-width:760px)
+{
+	.banner_img img{ width:55%;margin-top:0.5em;}
+	/*.box select
+	{
+		
+		position:absolute;
+		z-index:2;
+		margin: 4.5em 0 0 7em;
+	}*/
+}
+@media (min-width:980px)
+{
+	.banner_img img{ width:70%; margin-top:1em;}
+	/*.box select
+	{
+		
+		position:absolute;
+		z-index:2;
+		margin: 7em 0 0 23em;
+	}*/
+}
+@media (min-width:1200px)
+{
+	.banner_img img{ width:100%;margin-top:2em;}
+	/*.box select
+	{
+		
+		position:absolute;
+		z-index:2;
+		margin: 9em 0 0 21em;
+		font-size:12px;
+		height:25px;
+	}*/
+}
+@media (min-width:1920px)
+{
+	.banner_img img{ width:100%;margin-top:2em;}
+	/*.box select
+	{
+		
+		position:absolute;
+		z-index:2;
+		margin: 9em 0 0 13em;
+		font-size:12px;
+		height:25px;
+	}*/
+}
+.main{ float:left; width:100%;}
+.container-top {text-align:center; margin:0 0 2em 0;}
+.container-top section{text-transform:uppercase; margin:3em 0 0 0;}
+
+
+/* get from other template */
+.content_grid{}
+.col_1_of_3 {
+	display: block;
+	float: left;
+	margin: 1% 0 1% 3.52%;
+	border:3px solid #f7f6f6;
+}
+.span_1_of_3 {
+	width: 35.36%;  /* ----- set individual width of product box--*/
+	-webkit-transition: all 0.4s ease;
+	-moz-transition: all 0.4s ease;
+	-o-transition: all 0.4s ease;
+	transition: all 0.4s ease;
+	font-family: 'Roboto', sans-serif;
+}
+@media (min-width:320px)
+{
+	.col_1_of_3 {margin: 1% 0 1% 2.5%;}
+	.span_1_of_3 {width: 29.65%;  /* ----- set individual width of product box--*/}
+}
+@media (min-width:768px)
+{
+	.col_1_of_3 {margin: 1% 0 1% 2.5%;}
+	.span_1_of_3 {width: 30.75%;  /* ----- set individual width of product box--*/}
+}
+@media(min-width:980px)
+{
+	.col_1_of_3 {margin: 1% 0 1% 2.5%;}
+	.span_1_of_3 {width: 30.90%;  /* ----- set individual width of product box--*/}
+}
+.col_1_of_3:first-child {
+	margin-left: 0;
+}
+
+
+.view {
+   overflow: hidden;
+   position: relative;
+   text-align: center;
+   cursor: default;
+}
+.view .content {
+   position: absolute;
+   overflow: hidden;
+   top:10em;
+   left:6.2em;
+}
+.view img {
+   display: block;
+   position: relative;
+   border:none;
+   outline:none;
+}
+.view .nav{ text-decoration:none; cursor:pointer;}
+@media(min-width:1200px)
+{
+	.view img{margin-left:0.6em;}
+}
+.view-first img {
+   -webkit-transition: all 0.2s linear;
+   -moz-transition: all 0.2s linear;
+   -o-transition: all 0.2s linear;
+   -ms-transition: all 0.2s linear;
+   transition: all 0.2s linear;
+}
+
+.cart-left{
+	clear:both;
+	/*margin-right: 2.6%;*/
+		overflow:hidden;
+}
+
+p.title{
+	color: #000;
+	font-size: 0.95em;
+	font-weight: bold;
+}
+p.title a:hover{
+	color:#7DB122;
+}
+
+.product_container {
+	padding: 1em 0;
+}
+.paginator{ margin:1.5% auto 2% auto; float:left; color:#e8e7e7; width:100%;}
+.paginator span{ padding:0.2em 0.5em 0.2em 0.5em; border:1px solid #e8e7e7; cursor:pointer; float: left; margin:0 0 0 0.2em; font-size:15px; font-weight:normal;}
+.foot{
+	background:#fdfcfc url(../images/commons/footer.png) top repeat-x;
+	float:left;
+	width:100%;
+}
+.footer{ font-size:10px; font-weight:normal !important; width:30%; float:left; padding:1em;}
+@media (min-width:320px)
+{
+	.footer{width:23.55%;}
+	.footer{ margin: 0.5% 0 1% 1.5%;}
+}
+@media (min-width:768px)
+{
+	.footer{width:28.5%;}
+	.footer{ margin: 1% 0 1% 1.5%;}
+}
+@media (min-width:980px)
+{
+	.footer{width:29%;}
+	.footer{ margin: 1% 0 1% 1.5%;}
+}
+.footer{ margin: 1% 0 1% 2%;}
+.footer:first-child{margin-left: 0;}
+.footer .title{ font-family:'Lato'; font-size:13px;}
+.footer p{line-height:23px;}
+.foot footer{ font-size:10px; font-weight:normal; padding:2em; float:left;}
+.img_res{width:25%; float:right; margin:2% 0 5% 0;}
+@media (max-width:768px)
+{
+	.footer img{ width:100%;}
+	.footer table{ font-size:6px;}
+}
+
+
+
+/* product details*/
+.grid_left
+{
+	width:66%;
+	float:left;
+	margin:0 0 4em 0;
+}
+.details_img img{ margin:2em auto 0 auto; width:100%;}
+.wrap{width:100%; margin:0 auto 0 auto; padding-top:2em; border:7px solid #d3d3d3;}
+.wrap .title{ margin:0.1em auto 0 auto; padding-left:3em; text-transform:capitalize;}
+.grid_right{ width:30%; float:right;}
+.grid_right .wrap_:first-child{  margin:0 0 2.8em 0;}
+.wrap_{ width:100%; border:1px solid #f7f6f6; float:left;}
+.wrap_ .title{ font-size:12px; text-transform:uppercase; text-align:center;}
+@media (min-width:320px)
+{
+	.grid_right .wrap_:first-child{ margin:0 0 2.2em 0.5em;}
+	.grid_right .wrap_{ margin-left:0.5em;}
+}
+@media (min-width:768px)
+{
+	.grid_right .wrap_:first-child{ margin:0 0 1.74em 0.5em;}
+	.grid_right .wrap_{ margin-left:0.5em;}
+}
+@media (min-width:980px)
+{
+	.grid_right .wrap_:first-child{ margin:0 0 2.45em 0.5em;}
+	.grid_right .wrap_{ margin-left:0.5em;}
+}
+@media (min-width:1200px)
+{
+	.grid_right .wrap_:first-child{ margin:0 0 2.8em 0.5em;}
+	.grid_right .wrap_{ margin-left:0.5em;}
+}

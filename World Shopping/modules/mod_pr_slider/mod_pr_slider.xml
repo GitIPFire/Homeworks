@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="2.5.0" method="upgrade">
+	<name>mod_pr_slider</name>
+	<creationDate>06/20/2013</creationDate>
+	<author>Khandaker Shamsul Islam Nirob</author>
+	<authorEmail>webpentagon@pranon.com</authorEmail>
+	<authorUrl>http://www.webpentagon.com</authorUrl>
+	<copyright>Copyright Info</copyright>
+	<license>License Info</license>
+	<version>0.1</version>
+	<description>MOD_PR_SLIDER_XML_DESCRIPTION</description>
+	<files>
+		<filename module="mod_pr_slider">mod_pr_slider.php</filename>
+		<filename>mod_pr_slider.xml</filename>
+		<filename>index.html</filename>
+		<folder>tmpl</folder>
+		<folder>css</folder>
+		<folder>js</folder>
+		<folder>language</folder>
+	</files>
+		<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="class_suffix" type="text" label="Class suffix" description="Add a class suffix to change style using a custom class"/>
+				
+				<field name="default_value" type="list" default="1"
+					label="Use All Default" description="choose default or not">
+					<option value="1">Yes</option>
+					<option value="2">No</option>
+				</field>
+			</fieldset>
+			
+			<fieldset name="slide-1" label="Slider 1">
+				<field name="default_value_slider_1" type="list" default="1"
+					label="show slider" description="show this slider or not">
+					<option value="1">Yes</option>
+					<option value="2">No</option>
+				</field>
+				<field name="prslide_img1" type="media" label="Image 1" default="templates/universefolio/images/demo/slider/slide-1.jpg" description="choose image" />
+				<field name="ttitle11" type="text" label="Title 1" default="" description="Input title of slide 1" />
+				<field name="ttitle12" type="text" label="Title 2" default="" description="Input title of slide 1" />
+				<field name="ttitle13" type="text" label="Title 3" default="" description="Input title of slide 1" />
+				
+				<field name="default_button_1" type="list" default="0"
+					label="Show button" description="Show button or not">
+					<option value="1">Yes</option>
+					<option value="2">No</option>
+				</field>								
+				<field name="btitle13" type="text" label="Button link" default="#" description="Button link" />
+				<field name="btitle14" type="text" label="Button text" default="" description="Input utton text" />
+				
+				<field name="default_video_1" type="list" default="0"
+					label="Show video" description="Show video or not">
+					<option value="1">Yes</option>
+					<option value="2">No</option>
+				</field>				
+				<field name="vtitle14" type="text" default="http://www.youtube.com/embed/YE7VzlLtp-4" label="video embed code link" description="Input video embed code link only without iframe" />	
+			</fieldset>
+
+			<fieldset name="slide-2" label="Slider 2">
+				<field name="default_value_slider_2" type="list" default="1"
+					label="show slider" description="show this slider or not">
+					<option value="1">Yes</option>
+					<option value="2">No</option>
+				</field>
+				<field name="prslide_img2" type="media" label="Image 1" default="templates/universefolio/images/demo/slider/slide-2.jpg" description="choose image" />
+				<field name="ttitle21" type="text" label="Title 1" default="" description="Input title of slide 2" />
+				<field name="ttitle22" type="text" label="Title 2" default="" description="Input title of slide 2" />
+				<field name="ttitle23" type="text" label="Title 3" default="" description="Input title of slide 2" />				
+				
+				<field name="default_button_2" type="list" default="0"
+					label="Show button" description="Show button or not">
+					<option value="1">Yes</option>
+					<option value="2">No</option>
+				</field>								
+				<field name="btitle23" type="text" label="Button link" default="#" description="Button link" />
+				<field name="btitle24" type="text" label="Button text" default="" description="Input utton text" />
+				
+				<field name="default_video_2" type="list" default="0"
+					label="Show video" description="Show video or not">
+					<option value="1">Yes</option>
+					<option value="2">No</option>
+				</field>				
+				<field name="vtitle24" type="text" default="http://www.youtube.com/embed/YE7VzlLtp-4" label="video embed code link" description="Input video embed code link only without iframe" />				
+			</fieldset>
+
+			<fieldset name="slide-3" label="Slider 3">
+				<field name="default_value_slider_3" type="list" default="1"
+					label="show slider" description="show this slider or not">
+					<option value="1">Yes</option>
+					<option value="2">No</option>
+				</field>
+				<field name="prslide_img3" type="media" label="Image 1" default="templates/universefolio/images/demo/slider/slide-3.jpg" description="choose image" />
+				<field name="ttitle31" type="text" label="Title 1" default="" description="Input title of slide 3" />
+				<field name="ttitle32" type="text" label="Title 2" default="" description="Input title of slide 3" />
+				<field name="ttitle33" type="text" label="Title 3" default="" description="Input title of slide 3" />
+				
+				<field name="default_button_3" type="list" default="0"
+					label="Show button" description="Show button or not">
+					<option value="1">Yes</option>
+					<option value="2">No</option>
+				</field>								
+				<field name="btitle33" type="text" label="Button link" default="#" description="Button link" />
+				<field name="btitle34" type="text" label="Button text" default="" description="Input utton text" />
+				
+				<field name="default_video_3" type="list" default="1"
+					label="Show video" description="Show video or not">
+					<option value="1">Yes</option>
+					<option value="2">No</option>
+				</field>				
+				<field name="vtitle34" type="text" default="http://www.youtube.com/embed/YE7VzlLtp-4" label="video embed code link" description="Input video embed code link only without iframe" />
+			</fieldset>
+
+			<fieldset name="slide-4" label="Slider 4">
+				<field name="default_value_slider_4" type="list" default="1"
+					label="show slider" description="show this slider or not">
+					<option value="1">Yes</option>
+					<option value="2">No</option>
+				</field>				
+				<field name="prslide_img4" type="media" label="Image 4" default="templates/universefolio/images/demo/slider/slide-1.jpg" description="choose image" />
+				<field name="ttitle41" type="text" label="Title 1" default="" description="Input title of slide 4" />
+				<field name="ttitle42" type="text" label="Title 2" default="" description="Input title of slide 4" />
+				<field name="ttitle43" type="text" label="Title 3" default="" description="Input title of slide 4" />
+				
+				<field name="default_button_4" type="list" default="0"
+					label="Show button" description="Show button or not">
+					<option value="1">Yes</option>
+					<option value="2">No</option>
+				</field>								
+				<field name="btitle43" type="text" label="Button link" default="#" description="Button link" />
+				<field name="btitle44" type="text" label="Button text" default="" description="Input utton text" />
+				
+				<field name="default_video_4" type="list" default="0"
+					label="Show video" description="Show video or not">
+					<option value="1">Yes</option>
+					<option value="2">No</option>
+				</field>				
+				<field name="vtitle44" type="text" default="http://www.youtube.com/embed/YE7VzlLtp-4" label="video embed code link" description="Input video embed code link only without iframe" />
+			</fieldset>
+
+			<fieldset name="slide-5" label="Slider 5">
+				<field name="default_value_slider_5" type="list" default="1"
+					label="show slider" description="show this slider or not">
+					<option value="1">Yes</option>
+					<option value="2">No</option>
+				</field>
+				<field name="prslide_img5" type="media" label="Image 5" default="templates/universefolio/images/demo/slider/slide-2.jpg" description="choose image" />
+				<field name="ttitle51" type="text" label="Title 1" default="" description="Input title of slide 5" />
+				<field name="ttitle52" type="text" label="Title 2" default="" description="Input title of slide 5" />
+				<field name="ttitle53" type="text" label="Title 3" default="" description="Input title of slide 5" />
+				
+				<field name="default_button_5" type="list" default="0"
+					label="Show button" description="Show button or not">
+					<option value="1">Yes</option>
+					<option value="2">No</option>
+				</field>								
+				<field name="btitle53" type="text" label="Button link" default="#" description="Button link" />
+				<field name="btitle54" type="text" label="Button text" default="" description="Input utton text" />
+				
+				<field name="default_video_5" type="list" default="0"
+					label="Show video" description="Show video or not">
+					<option value="1">Yes</option>
+					<option value="2">No</option>
+				</field>				
+				<field name="vtitle54" type="text" default="http://www.youtube.com/embed/YE7VzlLtp-4" label="video embed code link" description="Input video embed code link only without iframe" />
+			</fieldset>
+
+			<fieldset name="slide-6" label="Slider 6">
+				<field name="default_value_slider_6" type="list" default="1"
+					label="show slider" description="show this slider or not">
+					<option value="1">Yes</option>
+					<option value="2">No</option>
+				</field>
+				<field name="prslide_img6" type="media" label="Image 1" default="templates/universefolio/images/demo/slider/slide-3.jpg" description="choose image" />
+				<field name="ttitle61" type="text" label="Title 1" default="" description="Input title of slide 6" />
+				<field name="ttitle62" type="text" label="Title 2" default="" description="Input title of slide 6" />
+				<field name="ttitle63" type="text" label="Title 3" default="" description="Input title of slide 6" />
+				
+				<field name="default_button_6" type="list" default="0"
+					label="Show button" description="Show button or not">
+					<option value="1">Yes</option>
+					<option value="2">No</option>
+				</field>								
+				<field name="btitle63" type="text" label="Button link" default="#" description="Button link" />
+				<field name="btitle64" type="text" label="Button text" default="" description="Input utton text" />
+				
+				<field name="default_video_6" type="list" default="1"
+					label="Show video" description="Show video or not">
+					<option value="1">Yes</option>
+					<option value="2">No</option>
+				</field>				
+				<field name="vtitle64" type="text" default="http://www.youtube.com/embed/YE7VzlLtp-4" label="video embed code link" description="Input video embed code link only without iframe" />				
+			</fieldset>
+
+			<fieldset name="slide-7" label="Slider 7">
+				<field name="default_value_slider_7" type="list" default="1"
+					label="show slider" description="show this slider or not">
+					<option value="1">Yes</option>
+					<option value="2">No</option>
+				</field>
+				<field name="prslide_img7" type="media" label="Image 1" default="templates/universefolio/images/demo/slider/slide-3.jpg" description="choose image" />
+				<field name="ttitle71" type="text" label="Title 1" default="" description="Input title of slide 7" />
+				<field name="ttitle72" type="text" label="Title 2" default="" description="Input title of slide 7" />
+				<field name="ttitle73" type="text" label="Title 3" default="" description="Input title of slide 7" />
+				
+				<field name="default_button_7" type="list" default="0"
+					label="Show button" description="Show button or not">
+					<option value="1">Yes</option>
+					<option value="2">No</option>
+				</field>								
+				<field name="btitle73" type="text" label="Button link" default="#" description="Button link" />
+				<field name="btitle74" type="text" label="Button text" default="" description="Input utton text" />
+				
+				<field name="default_video_7" type="list" default="1"
+					label="Show video" description="Show video or not">
+					<option value="1">Yes</option>
+					<option value="2">No</option>
+				</field>				
+				<field name="vtitle74" type="text" default="http://www.youtube.com/embed/YE7VzlLtp-4" label="video embed code link" description="Input video embed code link only without iframe" />				
+			</fieldset>
+
+			<fieldset name="slide-8" label="Slider 8">
+				<field name="default_value_slider_8" type="list" default="1"
+					label="show slider" description="show this slider or not">
+					<option value="1">Yes</option>
+					<option value="2">No</option>
+				</field>
+				<field name="prslide_img8" type="media" label="Image 1" default="templates/universefolio/images/demo/slider/slide-3.jpg" description="choose image" />
+				<field name="ttitle81" type="text" label="Title 1" default="" description="Input title of slide 8" />
+				<field name="ttitle82" type="text" label="Title 2" default="" description="Input title of slide 8" />
+				<field name="ttitle83" type="text" label="Title 3" default="" description="Input title of slide 8" />
+				
+				<field name="default_button_8" type="list" default="0"
+					label="Show button" description="Show button or not">
+					<option value="1">Yes</option>
+					<option value="2">No</option>
+				</field>								
+				<field name="btitle83" type="text" label="Button link" default="#" description="Button link" />
+				<field name="btitle84" type="text" label="Button text" default="" description="Input utton text" />
+				
+				<field name="default_video_8" type="list" default="1"
+					label="Show video" description="Show video or not">
+					<option value="1">Yes</option>
+					<option value="2">No</option>
+				</field>				
+				<field name="vtitle84" type="text" default="http://www.youtube.com/embed/YE7VzlLtp-4" label="video embed code link" description="Input video embed code link only without iframe" />				
+			</fieldset>
+			
+		</fields>
+	</config>
+</extension>

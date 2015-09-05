@@ -1,0 +1,68 @@
+@charset "utf-8";
+/* CSS Document */
+
+.container
+{
+	padding-right: 0px;
+  	padding-left: 0px;
+  	margin-right: auto;
+  	margin-left: auto;	
+}
+@media (min-width: 320px)
+{
+	.container
+	{
+		width:300px;
+	}
+}
+@media (min-width: 460px)
+{
+	.container
+	{
+		width:400px;
+	}
+}
+@media (min-width: 560px)
+{
+	.container
+	{
+		width:500px;
+	}
+}
+@media (min-width: 660px)
+{
+	.container
+	{
+		width:600px;
+	}
+}
+@media (min-width: 768px)
+{
+	.container
+	{
+		width:700px;
+	}
+}
+@media (min-width: 979px)
+{
+	.container
+	{
+		width:900px;
+	}
+}
+@media (min-width: 1200px)
+{
+	.container
+	{
+		width:979px;
+	}
+}
+.img-responsive,
+.thumbnail > img,
+.thumbnail a > img,
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}

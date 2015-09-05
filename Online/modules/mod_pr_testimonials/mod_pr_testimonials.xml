@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="2.5.0" method="upgrade">
+	<name>mod_pr_testimonials</name>
+	<creationDate>06/19/2013</creationDate>
+	<author>Khandaker shamsul Islam Nirob</author>
+	<authorEmail>webpentagon@pranon.com</authorEmail>
+	<authorUrl>http://www.webpentagon.com</authorUrl>
+	<copyright>Copyright Info</copyright>
+	<license>License Info</license>
+	<version>0.1</version>
+	<description>MOD_PR_BOTTOMTOTOP2_XML_DESCRIPTION</description>
+	<files>
+		<filename module="mod_pr_testimonials">mod_pr_testimonials.php</filename>
+		<filename>mod_pr_testimonials.xml</filename>
+		<filename>index.html</filename>
+		<folder>tmpl</folder>
+		<folder>css</folder>
+		<folder>js</folder>
+		<folder>language</folder>
+	</files>
+		<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="class_suffix" type="text" label="Class suffix" description="Add a class suffix to change style using a custom class"/>
+			</fieldset>
+			
+			<fieldset name="testimonials_1" label="Testimonial 1">
+				<field name="name_1" type="text" label="Name" default="Alex Orange" description="Input the name"/>
+				<field name="designation_1" type="text" label="Designation" default="happy customer"  description="Input the designation"/>
+				<field name="comment_1" type="text" label="Comment" default="Sed mattis pretium ligula quis egestas. Proin adipiscing ultricies tempor. Mauris fermentum velit sed orci suscipit ac tincidunt est euismod." description="Input the comment"/>
+			</fieldset>
+			
+			<fieldset name="testimonials_2" label="Testimonial 2">
+				<field name="name_2" type="text" label="Name" default="John Smith" description="Input the name"/>
+				<field name="designation_2" type="text" label="Designation" default="Designer" description="Input the designation"/>
+				<field name="comment_2" type="text" label="Comment" default="The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those interested. Sections 1.10.32 and 1.10.33 from de Finibus Bonorum et Malorum by Cicero are also reproduced in their exact original form, accompanied by English versions from the 1914 translation by H. Rackham." description="Input the comment"/>
+			</fieldset>
+			
+			<fieldset name="testimonials_3" label="Testimonial 3">
+				<field name="name_3" type="text" label="Name" default="Diego Berry" description="Input the name"/>
+				<field name="designation_3" type="text" label="Designation" default="happy buyer" description="Input the designation"/>
+				<field name="comment_3" type="text" label="Comment" default="All the Lorem Ipsum generators on the Internet tend to repeat predefined chunks as necessary, making this the first true generator on the Internet. It uses a dictionary of over 200 Latin words, combined with a handful of model sentence structures, to generate Lorem Ipsum which looks reasonable. The generated Lorem Ipsum is therefore always free from repetition, injected humour, or non-characteristic words etc. Sed mattis pretium ligula quis egestas. Proin adipiscing ultricies tempor. Fusce faucibus felis ut odio ullamcorper in aliquam tortor sodales. Ut luctus nibh nec dui blandit quis laoreet libero facilisis." description="Input the comment"/>
+			</fieldset>
+				
+		</fields>
+	</config>
+</extension>

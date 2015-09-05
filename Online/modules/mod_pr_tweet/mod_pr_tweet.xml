@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="2.5.0" method="upgrade">
+	<name>mod_pr_tweet</name>
+	<creationDate>07/07/2013</creationDate>
+	<author>Khandaker Shamsul Islam Nirob</author>
+	<authorEmail>webpentagon@pranon.com</authorEmail>
+	<authorUrl>http://www.webpentagon.com</authorUrl>
+	<copyright>Copyright Info</copyright>
+	<license>License Info</license>
+	<version>0.1</version>
+	<description>MOD_PR_TWEET_XML_DESCRIPTION</description>
+	<files>
+		<filename module="mod_pr_tweet">mod_pr_tweet.php</filename>
+		<filename>mod_pr_tweet.xml</filename>
+		<filename>index.html</filename>
+		<folder>tmpl</folder>
+		<folder>css</folder>
+		<folder>js</folder>
+		<folder>language</folder>
+	</files>
+		<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="class_suffix" type="text" label="Class suffix" description="Add a class suffix to change style using a custom class"/>
+				<field name="tweet_id" type="text" default="354314774856757248" label="ID" description="Add your twitter widget id"/>
+				<field name="tweet_uname" type="text" default="webPentagon" label="User Name" description="Add your twitter username"/>
+				<field name="tweet_limit" type="text" default="3" label="Tweet limit" description="Add your tweet limit in number"/>
+				
+			</fieldset>
+				
+		</fields>
+	</config>
+</extension>

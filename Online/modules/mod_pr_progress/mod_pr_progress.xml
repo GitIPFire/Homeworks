@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="module" version="2.5.0" method="upgrade">
+	<name>mod_pr_progress</name>
+	<creationDate>06/16/2013</creationDate>
+	<author>web pentagon</author>
+	<authorEmail>webpentagon@pranon.com</authorEmail>
+	<authorUrl>http://www.webpentagon.com</authorUrl>
+	<copyright>Copyright Info</copyright>
+	<license>License Info</license>
+	<version>0.1</version>
+	<description>MOD_PR_PROGRESS_XML_DESCRIPTION</description>
+	<files>
+		<filename module="mod_pr_progress">mod_pr_progress.php</filename>
+		<filename>mod_pr_progress.xml</filename>
+		<filename>index.html</filename>
+		<folder>tmpl</folder>
+		<folder>css</folder>
+		<folder>js</folder>
+		<folder>language</folder>
+	</files>
+		<config>
+		<fields name="params">
+			<fieldset name="basic">
+				<field name="class_suffix" type="text" label="Class suffix" description="Add a class suffix to change style using a custom class"/>
+				<field name="progress1" type="text" label="skill name and progress title" default="" description="Input theskill name and progress title" />
+				<field name="progress1_valu" type="text" label="value" default="90" description="Input the progress value" />
+				
+				<field name="progress2" type="text" label="skill name and progress title" default="" description="Input theskill name and progress title" />
+				<field name="progress2_valu" type="text" label="value" default="60" description="Input the progress value" />				
+				<field name="progress3" type="text" label="skill name and progress title" default="" description="Input theskill name and progress title" />
+				<field name="progress3_valu" type="text" label="value" default="50" description="Input the progress value" />				
+				<field name="progress4" type="text" label="skill name and progress title" default="" description="Input theskill name and progress title" />
+				<field name="progress4_valu" type="text" label="value" default="80" description="Input the progress value" />				
+				<field name="progress5" type="text" label="skill name and progress title" default="" description="Input theskill name and progress title" />
+				<field name="progress5_valu" type="text" label="value" default="70" description="Input the progress value" />
+			
+			</fieldset>	
+		</fields>
+	</config>
+</extension>

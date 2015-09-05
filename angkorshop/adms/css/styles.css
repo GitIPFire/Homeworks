@@ -1,0 +1,132 @@
+@charset "utf-8";
+/* CSS Document */
+body{ padding:0; margin:0; font-family: 'Arial', Helvetica, sans-serif; font-size:12px; /*color:#4d4d4c;*/ color:#FFF;}
+a:link {
+    color: #FFF;
+	text-decoration:none;
+}
+
+/* visited link */
+a:visited {
+    color: #FFF;
+	text-decoration:none;
+}
+
+/* mouse over link */
+a:hover {
+    color: #FFF;
+	text-decoration:none;
+}
+
+/* selected link */
+a:active {
+    color: #FFF;
+	text-decoration:none;
+}
+html, body {
+    -webkit-background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: 100% 100%;
+	background: url(../images/commons/back.jpg) top repeat;
+    /*background-repeat: repeat;*/
+    /*background-image: url(../images/commons/back.jpg), -webkit-linear-gradient( to right top, #729fbc, #c29a90);
+    background-image: url(../images/commons/back.jpg), -moz-linear-gradient( to right top, #729fbc, #c29a90);
+    background-image: url(../images/commons/back.jpg), -ms-linear-gradient( to right top, #729fbc, #c29a90);
+    background-image: url(../images/commons/back.jpg), -o-linear-gradient( to right top, #729fbc, #c29a90);
+    background-image: url(../images/commons/back.jpg), linear-gradient( to right top, #729fbc, #c29a90);*/
+}
+.header, .main, .footer
+{
+	margin:0;
+	width:100%;
+	float:left;
+}
+.search input{ width:95%; height:20px; float:left; border:none; outline:none; margin: 0.8em 0 0 2.5em; background:none; color:#FFF;}
+::-webkit-input-placeholder {
+   color: #d3d3d3;
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #d3d3d3;  
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #d3d3d3;  
+}
+
+input.address:-ms-input-placeholder {  
+   color: #d3d3d3;  
+}
+.logo header section{ font-weight:bold; font-size:100%; margin:1.1em 0 0 0.3em;}
+@media(max-width:1050px)
+{
+	.logo header section{font-size:8px; margin:1.7em 0 0 0;}
+}
+
+.left-container
+{
+	width:22.1%;
+	float:left;
+}
+.left-bottom{ width:99%; background: url(../images/commons/left_bottom.png) no-repeat; background-size:100% 100%;}
+.tuggle{ width:100%; float:left;}
+.tuggle img { float:right; margin:1.0em 0.5em 1.5em 0; cursor:pointer;}
+.menu{ float:left; width:100%;}
+.menu nav{ width:100%; float:left; height:auto;}
+.menu .menu_item{ float:left; padding:0; margin:0; width:100%;}
+.menu .menu_parent{color:#000; font-weight:bold;}
+.menu nav .child{ margin:0.7em 0 0.4em 4em; float:left;}
+.menu nav .child p:hover, .menu .child .act{ color:#FF0; cursor:pointer;}
+@media(min-width: 0)
+{
+	.menu nav{ font-size:8px;}
+	.menu nav .child{ margin:0.7em 0 0.4em 2em; float:left;}
+}
+@media(min-width: 745px)
+{
+	.menu nav{ font-size:12px;}
+}
+
+.right-container
+{
+	float:left;
+	width:77.9%;
+	overflow:hidden;
+}
+.right-top{
+	width:96%;
+	margin:3em auto 0 auto;
+}
+.right-top table{ border:none; margin:0.5 auto 0 auto;}
+.right-top table .field
+{
+	width:96%;
+	background:#FFF;
+	border:0px solid #FFF;
+	outline:none;
+	height:2.1em;
+	border-radius:4px;
+	padding:0 2% 0 2%;
+}
+.right-top table .button
+{
+	width:86px;
+	height:2.6em;
+	float:left;
+	background: url(../images/commons/button.png) no-repeat;
+	border:none;
+	outline:none;
+	font-weight:bold;
+	color:#FFF;
+	font-size:12px;
+	margin:0 0 0 1.3em;
+}
+#right___
+{
+	height:21.50em;	
+	float:left;
+	width:100%;
+	overflow:auto;
+}
+.right-top .tbl tr:hover{ background:url(../images/commons/menu.png) repeat-x; cursor:pointer;}
